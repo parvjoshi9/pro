@@ -1,0 +1,390 @@
+.Whole-curriculum {
+  display: content;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 1200px;
+  border-radius: 2px solid black;
+}
+
+.Head {
+  font-size: 40px;
+	 padding: 10px 10px 10px 10px;
+	 color: #696868;
+}
+.TwoSubHeaders {
+	 font-size: 12px;
+	 color: #888;
+	 font-weight: unset;
+}
+  .HeaderOfSubjects {
+	 display: flex;
+	 width: 100%;
+	 border: 1px solid #e0dfdf;
+	 padding: 10px 30px 30px 30px;
+	 border-right: none;
+	 border-left: none;
+	 box-sizing: border-box;
+}
+
+.main-heading {
+	 font-size: 16px;
+	 font-weight: bold;
+}
+
+
+ .Whole-curriculum .AllSubjects .HeaderOfSubjects .twoheaders:first-child {
+	 width: 300px;
+}
+ .Whole-curriculum .AllSubjects .chapter {
+   padding-left: 200px;
+	 color: #2dadba;
+	 font-weight: bold;
+	 font-size: 18px;
+}
+ .Whole-curriculum .AllSubjects .heading {
+	 color: black;
+	 font-weight: bold;
+	 font-size: 16px;
+}
+ .Whole-curriculum .AllSubjects .TwoSubHeaders {
+	 color: #888;
+	 font-weight: bold;
+	 font-size: 14px;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row {
+	 display: flex;
+	 border-bottom: 1px solid #e0dfdf;
+	 height: 38px;
+	 justify-content: left;
+	 width: 100%;
+}
+ .subject-row .subject-col:first-child {
+	 width: 7em;
+	 display: flex;
+	 justify-content: space-around;
+}
+
+.subject-row .subject-col:first-child .SvgMarks {
+	 display: flex;
+	 position: relative;
+}
+.SvgMarks:hover .tooltiptext {
+	 visibility: visible;
+	 opacity: 1;
+}
+.SvgMarks .tooltiptext {
+	 visibility: hidden;
+	 width: 120px;
+	 background-color: #555;
+	 color: #fff;
+	 text-align: center;
+	 border-radius: 6px;
+	 position: absolute;
+	 z-index: 1;
+	 bottom: 125%;
+	 left: 50%;
+	 margin-left: -60px;
+	 opacity: 0;
+	 transition: opacity 0.3s;
+}
+.subject-col:first-child .SvgMarks .tooltiptext::after {
+	 position: absolute;
+	 top: 100%;
+	 left: 50%;
+	 margin-left: -5px;
+	 border-width: 5px;
+	 border-style: solid;
+	 border-color: #555 transparent transparent transparent;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col:first-child .SvgMarks img {
+	 filter: contrast(0);
+	 position: relative;
+	 display: inline-block;
+   margin: 15%;
+   padding-left: 40%;
+
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col:first-child .SvgMarks img:hover {
+	 filter: contrast(120%);
+   padding-left: 40%;
+
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col:nth-child(2) {
+	 min-width: 2em;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col:nth-child(3) {
+	 display: flex;
+	 align-items: center;
+	 margin-left: 1em;
+	 flex-grow: 1;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col .level {
+	 width: 2em;
+	 background: #6a8caf 47;
+	 height: 100%;
+	 transition: all 0.1s linear;
+	 margin-left: 0px;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col input {
+	 border: none;
+	 outline: none;
+	 width: 100%;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .heading-box .heading-row {
+	 display: flex;
+	 border-bottom: 1px solid #e0dfdf;
+	 height: 38px;
+	 justify-content: left;
+	 width: 100%;
+}
+
+.heading-col:first-child:first-child {
+	 width: 7em;
+	 display: flex;
+	 justify-content: space-around;
+}
+
+.heading-col:first-child:first-child .SvgMarks {
+	 display: flex;
+	 position: relative;
+
+}
+.heading-col:first-child:first-child .SvgMarks:hover .tooltiptext {
+	 visibility: visible;
+	 opacity: 1;
+}
+
+.heading-col:first-child:first-child .SvgMarks .tooltiptext {
+	 visibility: hidden;
+	 width: 120px;
+	 background-color: #555;
+	 color: #fff;
+	 text-align: center;
+	 border-radius: 6px;
+	 padding: 5px 0;
+	 position: absolute;
+	 z-index: 1;
+	 bottom: 125%;
+	 left: 50%;
+	 margin-left: -60px;
+	 opacity: 0;
+	 transition: opacity 0.3s;
+}
+ .heading-col:first-child:first-child .SvgMarks .tooltiptext::after {
+	 position: absolute;
+	 top: 100%;
+	 left: 50%;
+	 margin-left: -5px;
+	 border-width: 5px;
+	 border-style: solid;
+	 border-color: #555 transparent transparent transparent;
+}
+
+.heading-col:first-child:first-child .SvgMarks img {
+	 filter: contrast(0);
+	 position: relative;
+	 display: inline-block;
+   margin: 15%;
+   padding-left: 40%;
+
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .subject-row .subject-col:first-child .SvgMarks img:hover {
+	 filter: contrast(120%);
+
+}
+
+.Whole-curriculum .AllSubjects .subject-body .subject-box .heading-box .heading-row .heading-col:nth-child(2) {
+	 min-width: 250px;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .heading-box .heading-row .heading-col:nth-child(3) {
+	 display: flex;
+	 align-items: center;
+	 margin-left: 1em;
+	 flex-grow: 1;
+}
+
+.Whole-curriculum .AllSubjects .subject-body .subject-box .heading-box .heading-row .heading-col .level {
+	 width: 16em;
+	 background: #6a8caf 47;
+	 height: 100%;
+	 transition: all 0.1s linear;
+	 margin-left: 0px;
+}
+ .Whole-curriculum .AllSubjects .subject-body .subject-box .heading-box .heading-row .heading-col input {
+	 border: none;
+	 outline: none;
+	 width: 100%;
+}
+ .TwoSubHeaders-row {
+	 display: flex;
+	 border-bottom: 1px solid #e0dfdf;
+	 height: 38px;
+	 justify-content: left;
+	 width: 100%;
+}
+.TwoSubHeaders-col:first-child:first-child {
+	 width: 7em;
+	 display: flex;
+	 justify-content: space-around;
+}
+.TwoSubHeaders-col:first-child:first-child .SvgMarks {
+	 display: flex;
+	 position: relative;
+}
+.TwoSubHeaders-col:first-child:first-child .SvgMarks:hover .tooltiptext {
+	 visibility: visible;
+	 opacity: 1;
+}
+.TwoSubHeaders-col:first-child:first-child .SvgMarks .tooltiptext {
+	 visibility: hidden;
+	 width: 120px;
+	 background-color: #555;
+	 color: #fff;
+	 text-align: center;
+	 border-radius: 6px;
+	 padding: 5px 0;
+	 position: absolute;
+	 z-index: 1;
+	 bottom: 125%;
+	 left: 50%;
+	 margin-left: -60px;
+	 opacity: 0;
+	 transition: opacity 0.3s;
+}
+
+.TwoSubHeaders-col:first-child:first-child .SvgMarks .tooltiptext::after {
+
+	 position: absolute;
+	 top: 100%;
+	 left: 50%;
+	 margin-left: -5px;
+	 border-width: 5px;
+	 border-style: solid;
+	 border-color: #555 transparent transparent transparent;
+}
+.TwoSubHeaders-col:first-child:first-child .SvgMarks img {
+   filter: contrast(0);
+   position: relative;
+   display: inline-block;
+   margin: 15%;
+   padding-left: 40%;
+
+}
+  .TwoSubHeaders-col:first-child:first-child img:hover {
+	 filter: contrast(120%);
+  }
+
+.level {
+	 width:19em;
+	 background: #6a8caf 47;
+	 height: 100%;
+	 transition: all 0.1s linear;
+	 margin-left: 0px;
+}
+.TwoSubHeaders-col input {
+	 border: none;
+	 outline: none;
+	 width: 100%;
+}
+ .Whole-curriculum .enter-standard .standard-row {
+	 display: flex;
+	 border-bottom: 1px solid #e0dfdf;
+	 height: 38px;
+	 justify-content: left;
+	 width: 100%;
+}
+.standard-col:first-child:first-child {
+	 width: 7em;
+	 display: flex;
+	 justify-content: space-around;
+}
+.standard-col:first-child:first-child .SvgMarks {
+	 display: flex;
+	 position: relative;
+}
+
+.standard-col:first-child:first-child .SvgMarks:hover .tooltiptext {
+	 visibility: visible;
+	 opacity: 1;
+}
+
+.standard-col:first-child:first-child .SvgMarks .tooltiptext {
+	 visibility: hidden;
+	 width: 120px;
+	 background-color: #555;
+	 color: #fff;
+	 text-align: center;
+	 border-radius: 6px;
+	 padding: 5px 0;
+	 position: absolute;
+	 z-index: 1;
+	 bottom: 125%;
+	 left: 50%;
+	 margin-left: -60px;
+	 opacity: 0;
+	 transition: opacity 0.3s;
+}
+ .standard-col:first-child:first-child .SvgMarks .tooltiptext::after {
+	 position: absolute;
+	 top: 100%;
+	 left: 50%;
+	 margin-left: -5px;
+	 border-width: 5px;
+	 border-style: solid;
+	 border-color: #555 transparent transparent transparent;
+}
+.standard-col:first-child:first-child .SvgMarks img {
+	 filter: contrast(0);
+	 position: relative;
+	 display: inline-block;
+   padding: 15%;
+   padding-left:55%;
+}
+
+.standard-col:first-child:first-child .SvgMarks img:hover {
+	 filter: contrast(120%);
+}
+ .Whole-curriculum .enter-standard .standard-row .standard-col:nth-child(2) {
+	 min-width: 2em;
+}
+ .Whole-curriculum .enter-standard .standard-row .standard-col:nth-child(3) {
+	 display: flex;
+	 align-items: center;
+	 margin-left: 1em;
+	 flex-grow: 1;
+}
+ .Whole-curriculum .enter-standard .standard-row .standard-col .level {
+	 width: 13em;
+	 background: #6a8caf 47;
+	 height: 100%;
+	 transition: all 0.1s linear;
+	 margin-left: 0px;
+}
+ .Whole-curriculum .enter-standard .standard-row .standard-col input {
+	 border: none;
+	 outline: none;
+	 width: 500%;
+}
+ .Whole-curriculum .enter-standard .standard-row .standard-col .chapter {
+	 color: #2dadba;
+	 font-weight: bold;
+	 font-size: 18px;
+}
+.heading {
+	 color: black;
+	 font-weight: bold;
+	 font-size: 16px;
+}
+.TwoSubHeaders {
+	 color: #888;
+	 font-weight: bold;
+	 font-size: 14px;
+}
+ .Whole-curriculum .BtnStandard {
+	 background: #6a8caf;
+	 width: 100%;
+   margin:10px;
+   min-height: 40px;
+}
